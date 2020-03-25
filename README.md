@@ -16,5 +16,5 @@ make
 ```
 ./httpserver --files /your_files --num_threads [your_number_of_threads]
 ``` 
-**mind add "/" before [your_files]**
+**mind that add "/" before [your_files]**
 ![instruction](https://github.com/daisuki3/HttpServer/blob/master/instruction.png)
