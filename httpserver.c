@@ -196,7 +196,7 @@ void handle_files_request(int fd) {
 	 *					 = /index.html
 	 *					 = /my_documents
 	 */
-	getcwd(path, sizeof(path));
+	getcwd(path, sizeof(char) * (MAX_PATH + 1));
 	strcat(path, server_files_directory); 
 	strcat(path, request -> path);
 
