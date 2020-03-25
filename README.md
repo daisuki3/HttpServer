@@ -3,6 +3,8 @@
 # how to use 
 - clone this repo to your local
 
+- **move your web-file to repo's root directory**
+
 - **cd into the repo's root directory**
 
 - build the program
